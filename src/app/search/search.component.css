@@ -15,7 +15,7 @@ h1{
     font-size: large;
 }
 .panel-body{
-    background-color: chartreuse;
+    background-color: transparent;
     text-transform: auto;
 }
 .logo{
