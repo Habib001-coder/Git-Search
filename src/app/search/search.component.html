@@ -1,25 +1,33 @@
  <div class="container">
     <!-- <div *ngIf= "search"> -->
+        <h1>Github User Name Search</h1>
+        <form >
+            
+            <input type="text" name="username" class="form-control" placeholder="Enter your Username">
+            <button class="btn btn-outline-success btn-sm">Find github Data</button>
+          </form>
+        <div class="logo">
+        </div>
          <div class="panel panel-default"> 
              <div class="search heading">
                 
                  <div id="pract">
-                  <small>{{service.logo}}</small> 
+                  <h2>{{service.login}}</h2> 
                 </div>
                 <br>
              
             </div>
         </div>
-    </div>
     <img class="img" src="https://avatars.githubusercontent.com/u/81561045?v=4" alt="khabeeby">
-    <small>{{service.log}}</small> 
+    <!-- <small>{{service.log}}</small>  -->
        <!-- <span>studies at {{service.company}}</span> -->
+  
     <div class="panel-body">
         <div class="row">
             <div class="col-sm-4">
                 <ul class="list-group">
                     <li class="list-group-item" *ngIf="service.bio">{{service.bio}}</li>
-                    <li class="list-group-item" *ngIf="service.twitter_name">{{service.twitter_name}}</li>
+                    <li class="list-group-item" *ngIf="service.twitter_username">{{service.twitter_username}}</li>
                     <li class="list-group-item" *ngIf="service.location">{{service.location}}</li>
                     <li class="list-group-item" *ngIf="service.hireable">{{service.hireable}}</li>
                     <li class="list-group-item" *ngIf="service.created_at">{{service.created_at}}</li>
@@ -31,7 +39,9 @@
      <div class="col-sm-5">
         <p>
          <span class="lebel label-default">{{service.followers}} Followers</span>
-         <span class="lebel label-default">{{service.followering}} Followering</span>
+        </p>
+        <p>
+         <span class="lebel label-default">{{service.following}} Following</span>
          <!-- <span class="lebel label-default">{{service.public_gist}} Followers</span> -->
          <!-- <span class="lebel label-default">{{service.public_followers}}public</span> -->
         </p>

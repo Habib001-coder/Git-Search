@@ -3,7 +3,26 @@
     width: 200px;
 }
 .col-sm-5{
-    display:flex;
+    font-size: large;
+    color: black;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 30px;
+}
+h1{
+    text-shadow:black;
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+}
+.panel-body{
     background-color: transparent;
-    color:black;
+    text-transform: auto;
+}
+.logo{
+background-size: cover;
+}
+pannel-body{
+    color: white;
+    
 }
