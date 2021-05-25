@@ -11,8 +11,8 @@
 h1{
     text-shadow:black;
     text-align: center;
-    font-weight: bold;
-    font-size: xx-large;
+    font-weight: bolder;
+    font-size: large;
 }
 .panel-body{
     background-color: transparent;
