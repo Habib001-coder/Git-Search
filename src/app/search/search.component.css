@@ -12,7 +12,8 @@ h1{
     text-shadow:black;
     text-align: center;
     font-weight: bolder;
-    font-size: large;
+    font-size: larger;
+    height: 100px;
 }
 .panel-body{
     background-color: transparent;
@@ -24,4 +25,12 @@ background-size: cover;
 pannel-body{
     color: white;
     
+
+}
+.form{
+    display: flex;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 400px;
+    text-shadow: chartreuse;
 }

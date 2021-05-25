@@ -9,9 +9,9 @@ export class ServicesService {
   private clientId ='3a89a5fbf7242a533ac4';
   private clientSecret ='ddee8cbd76aba1768e973bcab4e73be1c7e03fa8';
   constructor(private http:HttpClient) {
-    this.username = "Habib001-coder";
+    this.username = "";
   }
-  getServiceData(){
-    return this.http.get("https://api.github.com/users/Habib001-coder")
+  getServiceData(userName : string){
+    return this.http.get("https://api.github.com/users/"+userName)
   }
 }

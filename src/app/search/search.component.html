@@ -1,13 +1,22 @@
  <div class="container">
     <!-- <div *ngIf= "search"> -->
         <h1>Github User Name Search</h1>
-        <form >
+        <div class="form">
+        <form (ngSubmit)="userSubmit()">
             
-            <input type="text" name="username" class="form-control" placeholder="Enter your Username">
-            <button class="btn btn-outline-success btn-sm">Find github Data</button>
+            <input type="text" name="userName" class="form-control" placeholder="Enter your Username" [(ngModel)]=userName>
+            <button class="btn btn-outline-success btn-sm" type="submit">Search</button>
           </form>
+          <!-- <form (ngSubmit)="userSubmit()"> -->
+            
+            <!-- <input type="text" name="userRepo" class="form-control" placeholder="Find Repository" [(ngModel)]=userName>
+            <button class="btn btn-outline-success btn-sm" type="submit">Find</button>
+          </form> -->
+        </div>
+
         <div class="logo">
         </div>
+
          <div class="panel panel-default"> 
              <div class="search heading">
                 
@@ -18,10 +27,11 @@
              
             </div>
         </div>
-    <img class="img" src="https://avatars.githubusercontent.com/u/81561045?v=4" alt="khabeeby">
+    <img class="img" src="{{service.avatar_url}}" >
     <!-- <small>{{service.log}}</small>  -->
        <!-- <span>studies at {{service.company}}</span> -->
   
+       
     <div class="panel-body">
         <div class="row">
             <div class="col-sm-4">

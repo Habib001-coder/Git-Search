@@ -10,14 +10,17 @@ export class SearchComponent implements OnInit {
  
   service:any;
   getServices: any;
-
+   userName : string = ''
   constructor(private findServices:ServicesService) { 
-    this.findServices.getServiceData().subscribe((service: any) =>{
+    
+  }
+  userSubmit(){
+    console.log(this.userName);
+    this.findServices.getServiceData(this.userName).subscribe((service: any) =>{
       console.log(service);
       this.service = service;
     });
   }
-
   ngOnInit() {
   }
 
