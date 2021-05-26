@@ -5,7 +5,8 @@ Quote-app
 
 ## Description
 
-This is agular cli application that a user can search his github account details
+This is agular cli application that a user can search his github account details and gets the output of the account details
+
 
 ## Live Page 
 
