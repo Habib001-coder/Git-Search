@@ -24,4 +24,4 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ## License
 * *MIT License:*
-* Copyright (c) 2021 **Abdallah Habib**
+* Copyright (C) 2021 **Abdallah Habib**
