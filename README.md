@@ -5,7 +5,7 @@ Quote-app
 
 ## Description
 
-This is agular cli application that displays quotes, allow the user to input new quote, upvote , downvote and delete the quote. 
+This is agular cli application that a user can search his github account details
 
 ## Live Page 
 
